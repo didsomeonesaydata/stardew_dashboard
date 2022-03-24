@@ -1,7 +1,10 @@
 # stardew_dashboard
 This is a Python script that reads the data in a Stardew Valley save file and creates a dashboard of the things I monitor on my farm daily. 
+
 The dashboard can be viewed in a web browser and refreshed after a save file has been updated on a new farm day.
+
 To run the dashboard, replace <path> with the path to your save file in line 43.
+
 Dashboard_Final_Product.png shows what the final product should look like.
 
 The following key Python libraries are used:
@@ -16,5 +19,6 @@ Working with the full file soup can be slow as the save file can be quite large.
 - Buildings I filtered to my Deluxe Barns and Deluxe Coops to be able to count the hay in the feeders.
 - Trees I filtered to trees with fruit growing on them. 
 - Crops I filtered to land with crops growing on it.
+
 You can explore each of these using list comprehension:
   [x.find('name').text for x in items]
