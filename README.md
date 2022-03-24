@@ -2,7 +2,7 @@
 This is a Python script that reads the data in a Stardew Valley save file and creates a dashboard of the things I monitor on my farm daily. 
 The dashboard can be viewed in a web browser and refreshed after a save file has been updated on a new farm day.
 To run the dashboard, replace <path> with the path to your save file in line 43.
-The image 'Dashboard Final Product.png' shows what the final product should look like.
+Dashboard_Final_Product.png shows what the final product should look like.
 
 The following key Python libraries are used:
 - BeautifulSoup is used to parse the save file and extract metrics.
